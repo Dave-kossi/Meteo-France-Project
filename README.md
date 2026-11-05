@@ -185,6 +185,7 @@ Points clés :
 | `tune_v1.py` | Teste les corrections du MLP une par une, choix sur le jour de validation | ≈ 15 min |
 | `temporal_cv.py` | Compare la validation croisée normale, avec tampon, « passé seulement » et par bloc | ≈ 10 min |
 | `run_mlp_cv.py` | Lance toutes les validations croisées des MLP et enregistre les résultats dans `Runs/` | ≈ 50 min |
+| `ablation_familles_mlp.py` | Retire une famille de variables à la fois du MLP et mesure la hausse d'erreur (`--rapide` pour un test sur 3 jours) | ≈ 30 min (rapide : ≈ 7 min) |
 
 ---
 
